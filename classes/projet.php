@@ -38,6 +38,10 @@ class projet {
         $this->dureePrevue = $dureePrevue;
     }
 
+    public function __toString(): string {
+        return $this->getCodeProjet() . " - " . $this->getnomProjet() . " - " . $this->getdureePrevue();
+    }
+
 
 
 }

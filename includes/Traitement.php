@@ -21,5 +21,11 @@ class Traitement {
         $e = new employe(1, "Dupont", "Jacques", new DateTime("12/07/1980"), 800.00);
         echo $e;
     }
+    
+    public static function instanciationProjetV1(): void{
+        $p = new projet('PR7','Librairie Gelistout', 102);
+        echo $p;
+        echo "Nom du projet = " . $p->getNomProjet();
+    }
 }
 
