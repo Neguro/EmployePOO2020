@@ -11,6 +11,14 @@ and open the template in the editor.
   </head>
   <body>
       <?php
+      include 'classes/employe.php';
+      include 'includes/Traitement.php';
+      
+        try {
+            Tratitement::instaciationUnEmploye();
+        } catch (Exception $ex) {
+            echo $ex->getMessage();
+        }
         
       ?>
   </body>
