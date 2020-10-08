@@ -16,8 +16,10 @@ and open the template in the editor.
       
         try {
             Traitement::instanciationUnEmploye();
-        } catch (Exception $ex) {
-            echo $ex->getMessage();
+            Traitement::instanciationUnEmployeErreur();
+            Traitement::instanciationUnEmploye();
+       } catch (Exception $ex) {
+            echo $ex->getMessage();            
         }
         
       ?>
