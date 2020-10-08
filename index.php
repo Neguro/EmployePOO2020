@@ -15,7 +15,7 @@ and open the template in the editor.
       include 'includes/Traitement.php';
       
         try {
-            Tratitement::instaciationUnEmploye();
+            Traitement::instanciationUnEmploye();
         } catch (Exception $ex) {
             echo $ex->getMessage();
         }
