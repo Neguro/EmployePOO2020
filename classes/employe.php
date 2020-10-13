@@ -11,7 +11,7 @@
  *
  * @author ahmedali.nassim
  */
-class employe {
+class Employe {
     protected int $numero;
     protected string $nom;
     protected string $prenom;

@@ -11,7 +11,7 @@
  *
  * @author ahmedali.nassim
  */
-class projet {
+class Projet {
     private string $codeProjet;
     private string $nomProjet;
     private int $dureePrevue;
